@@ -214,9 +214,9 @@ if __name__ == '__main__':
     )
 
     parser.add_argument(
-        "--no-zone-timers",
+        "--no-zone-read",
         action='store_false',
-        help="disable collection of zone timer settings"
+        help="disable collection of zone configuration"
     )
 
     args = parser.parse_args()
